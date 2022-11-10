@@ -6,5 +6,9 @@ from sensor.pipeline.training_pipeline import TrainingPipeline
 
 if __name__ == '__main__':
 
+    # logging.info("Started program")
+    # logging.info("Ended program")
+
     training_pipeline = TrainingPipeline()
     training_pipeline.run_pipeline()
+

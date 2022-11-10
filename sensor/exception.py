@@ -1,7 +1,3 @@
-"""
-    To capture the errors/exceptions of our code.
-    """
-
 import sys
 
 
@@ -29,5 +25,4 @@ class SensorException(Exception):
         )
 
     def __str__(self):
-        return self.error_message   
-        
+        return self.error_message
