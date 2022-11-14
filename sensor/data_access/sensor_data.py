@@ -1,5 +1,6 @@
 import sys
 from typing import Optional
+
 import numpy as np
 import pandas as pd
 import json
@@ -60,5 +61,3 @@ class SensorData:
 
         except Exception as e:
             raise SensorException(e, sys)
-
-            
