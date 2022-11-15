@@ -50,14 +50,6 @@ class DataValidation:
 
             logging.info(f"Missing numerical columns :{missing_numerical_columns}")
             return numerical_columns_present
-
-
-        
-        
-        
-        
-        
-        
         
         
         except Exception as e:
@@ -113,3 +105,5 @@ class DataValidation:
 
         except Exception as e:
             raise SensorException(e,sys)
+
+
