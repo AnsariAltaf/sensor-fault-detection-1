@@ -6,5 +6,6 @@ PyYAML
 scipy
 dill
 imblearn==0.0
+xgboost==1.6.2
 -e . 
 
