@@ -3,6 +3,7 @@ from sensor.exception import SensorException
 from sensor.logger import logging
 import os,sys
 import dill
+import numpy as np
 
 def read_yaml_file(file_path:str)->dict:
 
